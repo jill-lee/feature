@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+
+
+/*on desktop*/ /*Headshot photo*/
+.headshot img {
+   border-radius: 90%;
+   float: left;
+   width: 70px;
+   height: 70px;
+   margin-left: 20%;
+   margin-top: 30px;
+   border: 1px solid #000;
+}
+
+/*on mobile*/ /*Headshot photo*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+   .headshot img {
+      border-radius: 90%;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin-left: 30px;
+      margin-top: 20px;
+   }
+}
+/*Galaxy S7 and S8 */  /*Headshot photo*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+   .headshot img {
+      border-radius: 90%;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin-left: 40px;
+      margin-top: 20px;
+   }
+}
+
+/* J7 Pro */  /*Headshot photo*/
+@media only screen and (min-device-width: 370px) and (max-device-width: 640px) {
+   .headshot img {
+      border-radius: 90%;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin-left: 40px;
+      margin-top: 20px;
+   }
+}
+
+ /* (480x800) Android */  /*Headshot photo*/
+ @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+       .headshot img {
+      border-radius: 90%;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin-left: 75px;
+      margin-top: 20px;
+   }
+}
+
+
+/* Tablets */ /*Headshot photo*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .headshot img {
+      border-radius: 90%;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin-left: 50px;
+      margin-top: 20px;
+   }
+}
+
+/********************************************************************************************************/
+
+/*on desktop*//*Headshot content Jill Lee*/
+.headshot-content {
+   font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 25px;
+   margin-left: 27%; !important;
+   line-height: 15px;
+   overflow-x: hidden; !important;
+
+}
+
+/*on mobile*/ /*Headshot content Jill Lee*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+   .headshot-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 33%; !important;
+      line-height: 15px;
+      overflow-x: hidden; !important;
+
+   }
+}
+
+/*Galaxy S7 and S8 *//*Headshot content Jill Lee*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+   .headshot-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 33%; !important;
+      line-height: 15px;
+   }
+}
+
+/* J7 Pro */ /*Headshot content Jill Lee*/
+@media only screen and (min-device-width: 370px) and (max-device-width: 640px) {
+   .headshot-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 32%; !important;
+      line-height: 15px;
+      overflow-x: hidden; !important;
+
+   }
+}
+
+@media only screen
+  and (min-device-width: 760px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .headshot-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 20%; !important;
+      line-height: 15px;
+      overflow-x: hidden; !important;
+
+   }
+}
+
+/* Tablets */ /*Headshot content Jill Lee*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .headshot-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 17%;
+      line-height: 15px;
+      overflow-x: hidden; !important;
+
+   }
+}
+
+
+
+
+
+/********************************************************************************************************/
+
+/*on desktop*/ /*Headshot content Work Details*/
+.heashot-content2 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 12px;
+   margin-top: -5px;
+   margin-left: 27%; !important;
+   color: #838383;
+}
+
+/*on mobile*/ /*Headshot content Work Details*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+   .heashot-content2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      margin-top: -7px;
+      margin-left: 33%; !important;
+      color: #838383;
+      line-height: 15px;
+   }
+}
+
+/*Galaxy S7 and S8 */ /*Headshot content Work Details*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+   .heashot-content2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      margin-top: -7px;
+      margin-left: 33%; !important;
+      color: #838383;
+      line-height: 15px;
+   }
+}
+
+/* J7 Pro */ /*Headshot content Work Details*/
+@media only screen and (min-device-width: 370px) and (max-device-width: 640px) {
+   .heashot-content2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 9px;
+      margin-top: -7px;
+      margin-left: 32%; !important;
+      color: #838383;
+      line-height: 15px;
+
+   }
+}
+
+
+/* Tablets */ /*Headshot content Work Details*/
+
+
+@media only screen
+  and (min-device-width: 760px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .heashot-content2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 9px;
+      margin-top: -7px;
+      margin-left: 20%;
+      color: #838383;
+      line-height: 15px;
+
+   }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .heashot-content2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 9px;
+      margin-top: -7px;
+      margin-left: 17%;
+      color: #838383;
+      line-height: 15px;
+
+   }
+}
+
+
+
+.image-header {
+   margin-top: 30px;
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+
+/*on desktop*/ /*Title*/
+
+.title {
+   font-family: 'Roboto', sans-serif;
+   font-size: 320%;
+   line-height: 55px;
+   margin: auto;
+   position: absolute;
+   top: 135%; left: 20%; bottom: 25px; right: 20%;
+}
+
+
+.p1 {
+   font-family: 'Merriweather', serif; !important;
+   font-size: 15px;
+   margin-top: 25px;
+   line-height: 27px;
+   margin-left: 20px;
+   margin-right:20px;
+
+}
+
+.p2 {
+font-family: 'Merriweather', serif; !important;
+font-size: 15px;
+   margin-top: 45px;
+line-height: 27px;
+   margin-left: 20px;
+   margin-right:20px;
+
+}
+
+.p3 {
+font-family: 'Merriweather', serif; !important;
+font-size: 15px;
+line-height: 27px;
+    margin-left: 20px;
+   margin-right:20px;
+}
+
+.p4 {
+   font-family: 'Merriweather', serif; !important;
+   font-size: 15px;
+   line-height: 27px;
+   margin-bottom: 50px;
+   margin-left: 20px;
+   margin-right:20px;
+}
+
+ul {
+   font-family: 'Merriweather', serif; !important;
+font-size: 15px;
+   line-height: 33px;
+         margin-left: 20px;
+   margin-right:20px;
+}
+
+.copyright {
+   min-height:10px;
+   background-color:#000;
+}
+ .copyright p {
+    text-align:left;
+    color:#FFF;
+    padding:10px 0;
+    margin-bottom:0px;
+    font-size: 10px;
+}
